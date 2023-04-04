@@ -1,0 +1,5 @@
+𝐚) 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻 𝗳𝗼𝗿 𝗨𝗯𝘂𝗻𝘁𝘂
+𝐏𝐮𝐥𝐥 𝐈𝐦𝐚𝐠𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 :
+docker run -d --name Linuxamination --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro jrei/systemd-ubuntu:20.04
+𝐋𝐨𝐠 𝐢𝐧𝐭𝐨 𝐭𝐡𝐞 𝐂𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 :
+docker exec -it Linuxamination bash
